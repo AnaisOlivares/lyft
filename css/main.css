@@ -115,3 +115,133 @@ color: #A9B2C1;
 p {
   color: #A9B2C1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.left-list,.center-list,.right-list {
+  list-style: none;
+  color: white;
+  display: inline-block;
+  margin: 50px;
+  text-align: center;
+  line-height: 44px;
+}
+footer {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 20px;
+  height: 450px;
+  background-color: #333447;
+  color: white;
+}
