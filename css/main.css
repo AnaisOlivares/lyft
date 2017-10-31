@@ -9,3 +9,109 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
 Esta web utiliza la tipografía Montserrat.
 font-family: 'Montserrat', sans-serif;
  */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-image: url(../assets/images/hero.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.logo {
+  margin: 2% 5%;
+  width: 10%;
+}
+
+.right-side {
+  display: inline-block;
+  margin-left: 33px;
+}
+
+.border {
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 10%;
+}
+
+.menu {
+  color: white;
+  margin: 2% 18%;
+  bottom: 127px;
+  padding: 0px;
+  position: relative;
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.first-section {
+  background-color: white;
+  box-sizing: border-box;
+  height: 433px;
+  padding: 36px 37px;
+  position: relative;
+  bottom: 432px;
+  width: 557px;
+  float: right;
+}
+
+h1 {
+  color: #352384;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  margin: 0px;
+}
+
+.subtittle {
+  color: #3B2A88;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+button {
+  background-color: #FF00BF;
+  border-radius: 10px;
+  border-color: transparent;
+  color: white;
+  height: 54px;
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  width: 195px;
+}
+
+input {
+  border-bottom-color: #eee;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  height: 30px;
+  /* width: 60%; */
+  /* margin: 0px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  padding-bottom: 2px;
+  /* border: transparent; */
+  width: 60%;
+}
+.out {
+  text-decoration: none;
+  color: #FF00BF;
+}
+.page {
+  position: relative;
+left: 18px;
+font-family: 'Montserrat', sans-serif;
+color: #A9B2C1;
+}
+p {
+  color: #A9B2C1;
+}
