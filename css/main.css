@@ -1,6 +1,5 @@
 /*
  * Estilos de tu proyecto
-
  Botones, hover: #FF00BF
 Fondo de footer: #333447
 Título del formulario: #352384
@@ -9,12 +8,13 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
 Esta web utiliza la tipografía Montserrat.
 font-family: 'Montserrat', sans-serif;
  */
-
 body {
   box-sizing: border-box;
-  margin: 0;
-}
+margin: 0px;
+font-family: 'Montserrat', sans-serif;
 
+}
+/*HECHO POR ANAIS */
 header {
   /*background-image: url(../assets/images/hero.gif);
   background-repeat: no-repeat;
@@ -27,27 +27,23 @@ header {
   height: 550px;
   margin-bottom: 0px;
   position: relative;
-  bottom: 28px;
+  padding-bottom: 50px;
 }
-
 .logo {
   margin: 2% 5%;
   width: 10%;
   padding-top: 25px;
 }
-
 .right-side {
   display: inline-block;
   margin-left: 33px;
 }
-
 .border {
   box-sizing: border-box;
   border: 1px solid white;
   padding: 8px;
   border-radius: 10%;
 }
-
 .menu {
   color: white;
   margin: 2% 18%;
@@ -57,31 +53,27 @@ header {
   float: right;
   font-family: 'Montserrat', sans-serif;
 }
-
 .first-section {
   background-color: white;
   box-sizing: border-box;
-  height: 433px;
+  height: 430px;
   padding: 36px 37px;
   position: relative;
-  bottom: 461px;
+  bottom: 430px;
   width: 557px;
   float: right;
 }
-
 h1 {
   color: #352384;
   font-family: 'Montserrat', sans-serif;
   font-size: 55px;
   margin: 0px;
 }
-
 .subtittle {
   color: #3B2A88;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
 }
-
 button {
   background-color: #FF00BF;
   border-radius: 10px;
@@ -93,7 +85,6 @@ button {
   font-weight: bold;
   width: 195px;
 }
-
 input {
   border-bottom-color: #eee;
   border-top-color: transparent;
@@ -111,25 +102,119 @@ input {
   /* border: transparent; */
   width: 60%;
 }
-
 .out {
   text-decoration: none;
   color: #FF00BF;
 }
-
 .page {
   position: relative;
   left: 18px;
   font-family: 'Montserrat', sans-serif;
   color: #A9B2C1;
 }
-
-p {
+  p {
   color: #A9B2C1;
 }
+/*HECHO POR LONGHI VALVERDE*/
+/* SECTION */
+.background-section{
+  box-sizing: border-box;
+background: linear-gradient(#76278F, #2B1E66);
+width: 100%;
+height: 500px;
+margin-top: 0;
+}
+.phone {
+  width: 30%;
+height: 70%;
+margin-left:700px;
+margin-top: 30px;
+position: absolute;
+}
+.suBackground{
+color: #ffffff;
+margin-left: 10%;
+padding-top: 30px;
+}
+h1{
+  font-size: 40px;
+  color: #ffffff;
+}
+/* SECTION*/
+.background-movie{
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: inline-block;
+}
+.backgroundText{
+  width: 25%;
+  height: 300px;
+  margin-left: 150px;
+  top: 100px;
+  position: relative;
+  display: inline-block;
 
+
+}
+.backgroundText h3{
+  font-size:20px;
+ margin-right:300px;
+ font-weight: lighter;
+ text-align: center;
+
+}
+.backgroundText h1{color:#000;}
+.backgroundText p{
+  width: 85%;
+   text-align: left;
+   margin-left: 10px;
+   font-size: 20px;
+
+}
+ .background-movie iframe{
+   width:754px;
+   height:480px;
+    left: 550px;
+    top: 100px;
+position: absolute;
+}
+/* SECTION */
+.background-movie2{
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: inline-block;
+
+}
+.backgroundText2{
+  width: 25%;
+  height: 700px;
+  margin-left: 1020px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.backgroundText2 h3{
+  font-size:20px;
+ margin-right:300px;
+ font-weight: lighter;
+ text-align: center;
+ margin-top: 100px;
+}
+.backgroundText2 h1{color:#000;}
+.backgroundText2 p{
+  width: 85%;
+   text-align: left;
+   margin-left: 10px;
+}
+.background-movie2 iframe{
+  width:754px;
+  height:480px;
+   left: 150px;
+   bottom: 630px;
+position: relative;
+}
 /*footer*/
-
 .left-list, .center-list, .right-list {
   list-style: none;
   color: white;
@@ -138,12 +223,54 @@ p {
   text-align: center;
   line-height: 44px;
 }
-
 .list {
   position: relative;
   right: 18%
 }
 
+/* SECTION*/
+.background-movie3{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  padding-top: 500px;
+box-sizing: border-box;
+bottom:  600px;
+}
+.backgroundText3{
+  width: 25%;
+  height: 300px;
+  margin-left: 150px;
+  bottom: 400px;
+  position: relative;
+  display: inline-block;
+
+
+}
+/*HECHO POR ANAIS*/
+.backgroundText3 h3{
+  font-size:20px;
+ margin-right:300px;
+ font-weight: lighter;
+ text-align: center;
+
+}
+.backgroundText3 h1{color:#000;}
+.backgroundText3 p{
+  width: 85%;
+   text-align: left;
+   margin-left: 10px;
+   font-size: 20px;
+
+}
+ .background-movie3 iframe{
+   width:754px;
+   height:480px;
+    left: 550px;
+    bottom:10px;
+position:absolute;
+}
 footer {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -151,27 +278,26 @@ footer {
   height: 570px;
   background-color: #333447;
   color: white;
+  position:relative;
+  width: 100%;
+  margin-top: 100px;
 }
-
-img {
+ .services img {
   display: block;
   width: 12%;
   margin: 1%
 }
-
 .services {
   position: relative;
   left: 70%;
   bottom: 260px;
 }
-
 .social-media {
   color: white;
   bottom: 158px;
   font-size: 28px;
   position: relative;
 }
-
 .icon-facebook-f {
   right: 8%;
   position: relative;
@@ -184,7 +310,6 @@ img {
   text-align: center;
   width: 30px;
 }
-
 .icon-instagram {
   left: 8%;
   position: relative;
@@ -197,7 +322,6 @@ img {
   text-align: center;
   width: 30px;
 }
-
 .icon-twitter {
   border: 1px solid white;
   border-radius: 100%;
@@ -208,32 +332,14 @@ img {
   text-align: center;
   width: 30px;
 }
-
-hr {
+.social-media hr {
   width: 607px;
   position: relative;
   top: 11px;
 }
-
 .copyright {
   color: white;
   text-align: center;
   font-size: 14px;
   padding-top: 40px;
-}
-
-/*acá comienza el tercer video*/
-
-div {
-  width: 400px;
-}
-
-.third-video {
-  height: 364px;
-  padding-top: 30px;
-  padding-left: 30px;
-  /* margin: 0px; */
-  padding-bottom: 228px;
-  position: relative;
-  bottom: 47px;
 }
